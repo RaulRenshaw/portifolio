@@ -1,0 +1,154 @@
+body{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(imgs/jack-b-ombUn7ergE4-unsplash.png);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+    box-shadow: 0 1px 10px #f2f2f2;
+    width: calc(100% - 20px);
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+   
+}
+
+.logo{
+    font-size: 36px;
+    color: #f2f2f2 ;
+}
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #f2f2f2;
+}
+
+
+a.linkotherpages{
+    margin: 0 5px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.3s ease;
+}
+
+a.linkotherpages:hover{
+    background-color: #f2f2f2;
+    color: #031f3b;
+    transition: color 0.2s ease;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13vh;
+    flex-direction: column;
+    color: #f2f2f2;
+    width: 500px;
+    height: 600px;
+    border: 2px solid #f2f2f2;
+    box-shadow: 0 0 20px #f2f2f2;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+article{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.fa-brands{
+    padding: 10px;
+}
+
+.fa-brands:hover{
+    transform: scale(1.25);
+}
+
+input,select {
+    box-sizing: border-box; 
+    color: #f2f2f2;
+    background-color: transparent;
+}
+
+input{
+    margin: 5px;
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+input:focus{
+    box-shadow: 0 0 5px #f2f2f2;
+}
+
+input:hover{
+    box-shadow: 0 0 10px #f2f2f2;
+}
+
+input::placeholder{
+    color: #f2f2f2;
+}
+
+input:valid {
+    border-color: #228f22; /* Vermelho para entradas inválidas */
+}   
+
+h2{
+    font-size: 36px;
+}
+
+button{
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #f2f2f2; 
+    border-color: #f2f2f2;  
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+    width: 350px;
+    height: 50px;   
+    box-shadow: 0 0 10px #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto;  
+}
+
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #f2f2f2;
+}

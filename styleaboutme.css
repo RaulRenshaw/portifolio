@@ -1,0 +1,170 @@
+body{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+    background-image: url('imgs/john-moeses-bauan-EiwfpX6mh1w-unsplash.jpg');
+}
+
+.portfolio{
+    overflow-y: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+    box-shadow: 0 1px 10px #003366;
+    width: calc(100% - 20px);
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+   
+}
+
+.logo{
+    font-size: 36px;
+    color: #031f3b ;
+}
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.iconlarge{
+    font-size: 3em;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #F2F2F2
+}
+
+a:visited{
+    color: #F2F2F2;
+}
+a.linkotherpages {
+    margin: 0 5px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #031f3b;
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.3s ease;
+    width: fit-content; /* Ajusta ao tamanho do conteúdo */
+}
+
+a.linkotherpages:hover{
+    background-color: #031f3b;
+    color: #F2F2F2;
+    transition: color 0.2s ease;
+}
+
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 6% 46px 90px 46px;
+    background-color: transparent;
+    height: 70vh;
+}
+
+.portrait{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #031f3b;
+    width: 20%;
+    height: 60%;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.5s ease;
+    padding: 50px 0px;
+    color: #F2F2F2;
+    
+    box-shadow: 0 1px 10px #003366;
+}
+
+.portrait:hover{
+    transform: scale(1.5);
+}
+
+.descricao{
+    width: 80%;
+}
+
+.backgroudme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #F2F2F2;
+    background-image: url(imgs/jack-b-ombUn7ergE4-unsplash.png);
+}
+
+.kanit-medium{
+    margin-bottom: 10px;
+}
+   
+p{
+    margin: 0px;
+}
+
+li{
+    padding: 10px;
+}
+
+#gear{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#gear2{
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+.img{
+    margin-top: 50px;
+    font-size: 10em;
+}
+
+.linkhidden{
+    color: #151515;
+}
+
+.quemsoueu{
+    width: 85%;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.descricao {
+    width: 80%;
+    margin: 0 auto; /* Garante que a descrição ocupe o espaço necessário e seja centralizada */
+    text-align: center; /* Centraliza o texto */
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
